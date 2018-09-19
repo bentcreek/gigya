@@ -8,8 +8,14 @@
 
 </body>
 
-<a href="#" onclick="gigya.accounts.showScreenSet({screenSet:'Default-LiteRegistration'});">Subscribe Here!</a>
+<script>
+  var onGigyaServiceReady = function(ev){gigya.accounts.showScreenSet({screenSet:"SepThirteen-RegistrationLogin",containerID:"thing"})}
+</script>
 
-<script type="text/javascript" src="https://cdns.gigya.com/JS/gigya.js?apikey=3_e2bf7jhLAlY4-ujQUCp7aAT2LC1qfM_KwNjo3LIpqo5QHHF1pYoNKd4L04eebFii"></script>
+<script type="text/javascript" src="https://cdns.gigya.com/JS/gigya.js?apikey=3_e2bf7jhLAlY4-ujQUCp7aAT2LC1qfM_KwNjo3LIpqo5QHHF1pYoNKd4L04eebFii">
+{
+  lang:"fr"
+}
+</script>
 
 </html>
